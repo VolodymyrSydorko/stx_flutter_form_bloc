@@ -1,22 +1,22 @@
 name: stx_flutter_form_bloc
 description: A new Flutter package project.
 version: 0.0.1
-publish_to: none
+
+homepage: https://github.com/VolodymyrSydorko/stx_flutter_form_bloc
+repository: https://github.com/VolodymyrSydorko/stx_flutter_form_bloc
+documentation: https://github.com/VolodymyrSydorko/stx_flutter_form_bloc
 
 environment:
-  sdk: ">=2.16.1 <3.0.0"
+  sdk: ">=2.16.2 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  stx_form_bloc:
-    path: ../stx_form_bloc
+  stx_form_bloc: ^1.0.1
 
   flutter_bloc: ^8.0.1
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
   flutter_lints: ^1.0.4
