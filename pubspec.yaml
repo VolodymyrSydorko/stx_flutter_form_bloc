@@ -1,6 +1,6 @@
 name: stx_flutter_form_bloc
 description: Easy Form State Management using BLoC pattern. Separate the Form State and Business Logic from the User Interface.
-version: 0.0.6
+version: 0.0.7
 
 homepage: https://github.com/VolodymyrSydorko/stx_flutter_form_bloc
 repository: https://github.com/VolodymyrSydorko/stx_flutter_form_bloc
@@ -16,7 +16,7 @@ dependencies:
 
   flutter_bloc: ^8.0.1
 
-  stx_form_bloc: ^1.0.6
+  stx_form_bloc: ^1.0.7
 
 dev_dependencies:
   flutter_lints: ^2.0.1
