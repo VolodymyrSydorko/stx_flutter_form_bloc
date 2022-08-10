@@ -1,3 +1,7 @@
+## 0.0.6
+
+- updated dependencies (stx_form_bloc 1.0.6).
+
 ## 0.0.5
 
 - updated dependencies (stx_form_bloc 1.0.5).
