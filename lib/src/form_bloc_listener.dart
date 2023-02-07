@@ -46,7 +46,4 @@ class FormBlocListener<T extends FormBloc<SuccessResponse, FailureResponse>,
 
   final BlocWidgetListener<FormBlocState<SuccessResponse, FailureResponse>>?
       customListener;
-
-  @override
-  Widget? get child => super.child;
 }
