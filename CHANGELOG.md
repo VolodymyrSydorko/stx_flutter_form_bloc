@@ -1,3 +1,8 @@
+## 2.1.0
+
+- updated dependencies (stx_form_bloc 3.1.0).
+- Dart 3 support
+
 ## 2.0.0
 
 - updated dependencies (stx_form_bloc 3.0.0).
