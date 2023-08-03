@@ -7,7 +7,7 @@ repository: https://github.com/VolodymyrSydorko/stx_flutter_form_bloc
 documentation: https://github.com/VolodymyrSydorko/stx_flutter_form_bloc
 
 environment:
-  sdk: ">=2.18.0 <3.0.0"
+  sdk: ">=2.18.0 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
@@ -16,7 +16,7 @@ dependencies:
 
   flutter_bloc: ^8.1.2
 
-  stx_form_bloc: ^3.0.0
+  stx_form_bloc: ^3.1.0
 
 dev_dependencies:
   flutter_lints: ^2.0.1
