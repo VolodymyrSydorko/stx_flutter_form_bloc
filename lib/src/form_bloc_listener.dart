@@ -1,4 +1,3 @@
-import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:stx_flutter_form_bloc/src/typedefs.dart';
 import 'package:stx_form_bloc/stx_form_bloc.dart';
@@ -7,18 +6,16 @@ class FormBlocListener<T extends FormBloc<SuccessResponse, FailureResponse>,
         SuccessResponse, FailureResponse>
     extends BlocListener<T, FormBlocState<SuccessResponse, FailureResponse>> {
   FormBlocListener({
-    Key? key,
+    super.key,
     this.formBloc,
-    Widget? child,
+    super.child,
     this.onSubmitting,
     this.onSuccess,
     this.onFailure,
     this.onCancel,
     this.customListener,
   }) : super(
-          key: key,
           bloc: formBloc,
-          child: child,
           listener: customListener ??
               (context, state) {
                 if (state.status.isLoading && onSubmitting != null) {
