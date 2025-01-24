@@ -1,3 +1,7 @@
+## 3.0.0
+
+- updated dependencies.
+
 ## 2.3.0
 
 - updated dependencies.
