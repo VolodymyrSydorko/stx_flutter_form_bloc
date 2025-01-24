@@ -11,7 +11,11 @@ class LoadingDialog extends StatelessWidget {
         useRootNavigator: true,
         barrierDismissible: true,
         builder: (_) => LoadingDialog(key: key),
-      ).then((_) => FocusScope.of(context).requestFocus(FocusNode()));
+      ).then((_) {
+        if (context.mounted) {
+          FocusScope.of(context).requestFocus(FocusNode());
+        }
+      });
     }
   }
 
@@ -26,8 +30,8 @@ class LoadingDialog extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return WillPopScope(
-      onWillPop: () async => false,
+    return PopScope(
+      canPop: false,
       child: const Center(
         child: CircularProgressIndicator(),
       ),

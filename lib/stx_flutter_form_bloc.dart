@@ -1,4 +1,4 @@
-library stx_flutter_form_bloc;
+library;
 
 export 'package:stx_form_bloc/stx_form_bloc.dart';
 export 'src/typedefs.dart';
